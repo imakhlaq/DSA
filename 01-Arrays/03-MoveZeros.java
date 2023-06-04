@@ -1,3 +1,9 @@
+/**
+ * 01-MinAndMax
+ *
+ * Ans= Keep track of non-zero and move all to the start and fill rest of array
+ * with zero.
+ */
 class MoveZeros {
 
     static void moveZeros(int nums[]) {
@@ -9,7 +15,6 @@ class MoveZeros {
             if (nums[i] != 0) {
                 nums[location] = nums[i];
                 location++;
-
             }
         }
 
