@@ -16,7 +16,7 @@ class MinAndMax {
                 max = a;
             }
         }
-        System.out.print(min);
+        System.out.println(min);
         System.out.println(max);
     }
 
