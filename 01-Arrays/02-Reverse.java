@@ -1,6 +1,6 @@
 class Reverse {
 
-    static void reverseArray(int arr[]) {
+    static void reverseArray(int[] arr) {
 
         int start = 0;
         int end = arr.length - 1;
@@ -18,7 +18,7 @@ class Reverse {
     }
 
     public static void main(String[] args) {
-        int arr[] = { 3, 1, 2, 2, 0, 1, 0, 3, 12 };
+        int[] arr = {3, 1, 2, 2, 0, 1, 0, 3, 12};
 
         reverseArray(arr);
 
