@@ -13,7 +13,7 @@ class MaxLeft {
         }
 
         for (int a : leftMax) {
-            System.out.println(a);
+            System.out.print(a + " ");
         }
 
     }
